@@ -114,7 +114,7 @@ export default function Contact() {
                     Email
                   </div>
                   <div className="text-sm" style={{ color: '#64748b' }}>
-                    contact@theledgerco.in
+                    parekhtq@gmail.com
                   </div>
                 </div>
               </a>
