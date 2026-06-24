@@ -33,7 +33,7 @@ const handleSubmit = async (e: React.FormEvent) => {
 
   try {
     const response = await fetch(
-      "https://formsubmit.co/ajax/parekhconnect@gmail.com",
+      "https://formsubmit.co/ajax/parekhtq@gmail.com",
       {
         method: "POST",
         headers: {
