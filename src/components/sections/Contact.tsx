@@ -76,7 +76,7 @@ export default function Contact() {
 
             <div className="mb-8 space-y-5">
               <a
-                href="https://wa.me/919999999999"
+                href="https://wa.me/9830020633"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 rounded-lg border p-4 transition-all duration-200 hover:border-emerald hover:shadow-sm"
@@ -99,7 +99,7 @@ export default function Contact() {
               </a>
 
               <a
-                href="mailto:contact@theledgerco.in"
+                href="mailto:parekhtq@gmail.com"
                 className="flex items-center gap-4 rounded-lg border p-4 transition-all duration-200 hover:border-emerald hover:shadow-sm"
                 style={{ borderColor: '#e2e8f0', backgroundColor: '#ffffff' }}
               >
@@ -120,7 +120,7 @@ export default function Contact() {
               </a>
 
               <a
-                href="https://linkedin.com/company/theledgerco"
+                href="https://www.linkedin.com/in/tanishq-parekh-78b1746/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 rounded-lg border p-4 transition-all duration-200 hover:border-emerald hover:shadow-sm"
