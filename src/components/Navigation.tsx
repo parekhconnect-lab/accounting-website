@@ -48,7 +48,7 @@ export default function Navigation() {
             className="text-xl font-bold tracking-tight"
             style={{ color: scrolled ? '#0a1628' : '#f8fafc' }}
           >
-            The Ledger Co.
+            AccounTrust
           </a>
 
           <div className="hidden items-center gap-8 md:flex">
