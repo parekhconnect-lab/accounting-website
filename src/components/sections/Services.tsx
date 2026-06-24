@@ -16,7 +16,7 @@ import {
 const services = [
   {
     icon: BookOpen,
-    title: 'Accounting & Bookkeeping',
+    title: 'Accounting',
     desc: 'Accurate day-to-day recording of financial transactions, ledger maintenance, and monthly reconciliation. We ensure your books are always audit-ready and compliant.',
   },
   {
@@ -40,24 +40,9 @@ const services = [
     desc: 'Comprehensive audit preparation, documentation, and liaison with auditors. We streamline the statutory, internal, and tax audit processes for smoother approvals.',
   },
   {
-    icon: Users,
-    title: 'Payroll Management',
-    desc: 'End-to-end payroll processing including salary computation, PF/ESI compliance, TDS deductions, payslip generation, and full-and-final settlement handling.',
-  },
-  {
-    icon: Zap,
-    title: 'Process Automation',
-    desc: 'Identify repetitive accounting workflows and implement automated solutions that reduce manual errors, cut processing time by up to 70%, and improve data accuracy.',
-  },
-  {
     icon: Monitor,
     title: 'Accounting Software Setup',
     desc: 'Expert implementation of Tally, Zoho Books, QuickBooks, and custom ERP solutions. We configure, migrate data, train your team, and provide ongoing support.',
-  },
-  {
-    icon: PieChart,
-    title: 'Management Reporting',
-    desc: 'Actionable management reports with KPI tracking, variance analysis, budget vs. actual comparisons, and board-ready presentations for data-driven decisions.',
   },
   {
     icon: Lightbulb,
