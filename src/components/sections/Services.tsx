@@ -5,10 +5,7 @@ import {
   Calculator,
   BarChart3,
   ClipboardCheck,
-  Users,
-  Zap,
   Monitor,
-  PieChart,
   Lightbulb,
   ChevronRight,
 } from 'lucide-react';
