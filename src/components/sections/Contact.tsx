@@ -28,14 +28,49 @@ export default function Contact() {
     return () => observer.disconnect();
   }, []);
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setSubmitted(true);
-    setTimeout(() => {
-      setSubmitted(false);
-      setForm({ name: '', email: '', phone: '', company: '', service: '', message: '' });
-    }, 4000);
-  };
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  try {
+    const response = await fetch(
+      "https://formsubmit.co/ajax/parekhconnect@gmail.com",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          name: form.name,
+          email: form.email,
+          phone: form.phone,
+          company: form.company,
+          service: form.service,
+          message: form.message,
+        }),
+      }
+    );
+
+    if (response.ok) {
+      setSubmitted(true);
+
+      setTimeout(() => {
+        setSubmitted(false);
+        setForm({
+          name: "",
+          email: "",
+          phone: "",
+          company: "",
+          service: "",
+          message: "",
+        });
+      }, 4000);
+    }
+  } catch (error) {
+    console.error("Form submission failed", error);
+    alert("Something went wrong. Please try again.");
+  }
+};
 
   return (
     <section ref={sectionRef} id="contact" className="section-light py-24 md:py-32">
